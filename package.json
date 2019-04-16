@@ -1,0 +1,40 @@
+{
+  "name": "angular-7-custom-modal",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cornflourblue/angular-7-custom-modal.git"
+  },
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@angular/common": "^7.0.0",
+    "@angular/compiler": "^7.0.0",
+    "@angular/core": "^7.0.0",
+    "@angular/forms": "^7.0.0",
+    "@angular/platform-browser": "^7.0.0",
+    "@angular/platform-browser-dynamic": "^7.0.0",
+    "@angular/router": "^7.0.0",
+    "core-js": "^3.0.0",
+    "rxjs": "^6.0.0",
+    "zone.js": "^0.8.26"
+  },
+  "devDependencies": {
+    "@types/node": "^11.0.0",
+    "angular2-template-loader": "^0.6.2",
+    "css-loader": "^2.1.1",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.0.4",
+    "less-loader": "^4.1.0",
+    "raw-loader": "^1.0.0",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^5.0.0",
+    "typescript": "^3.0.0",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.3.1"
+  }
+}
